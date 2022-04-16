@@ -12,7 +12,7 @@ import { CheckIcon } from "@heroicons/react/solid";
 const HeroSection = () => {
   return (
     <section className="main-bg">
-      <div className="container mx-auto py-24">
+      <div className="container mx-auto pt-24 pb-52 ">
         <div className="grid grid-cols-1 md:grid-col-6 lg:grid-cols-6 ">
           <div className="left col-span-1  md:col-span-1 lg:col-span-3 flex justify-center ">
             <div className="div">
