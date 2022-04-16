@@ -1,0 +1,9 @@
+.main-transition{
+  transition: all ease 0.7s;
+}
+.main-transition  a{
+ font-weight: 400;
+}
+.main-transition  a:hover{
+ color: #3e53f6;
+}

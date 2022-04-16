@@ -1,9 +1,12 @@
 import React from 'react';
+import HeroSection from '../../components/HeroSection/HeroSection';
+import FeaturesLeftTitle from '../../components/Features/FeaturesLeftTitle';
 
 const Home = () => {
   return (
     <div>
-      home
+      <HeroSection />
+      <FeaturesLeftTitle />
     </div>
   );
 };
