@@ -16,7 +16,7 @@ module.exports = {
         second: "#3e53f6",
         third: "#666a8f",
         four: "#61ce70",
-        green: "#13ce66",
+        five: "#888",
         yellow: "#ffc82c",
       },
       boxShadow: {

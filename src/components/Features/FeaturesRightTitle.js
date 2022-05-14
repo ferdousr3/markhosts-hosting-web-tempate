@@ -3,11 +3,14 @@ import features from "../../images/features/featurse.png";
 import { useNavigate } from "react-router-dom";
 import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 
-const FeaturesLeftTitle = ({ title, subTitle, price, buttonText, route }) => {
+const FeaturesRightTitle = ({ title, subTitle, price, buttonText, route }) => {
   const navigate = useNavigate();
   return (
     <div className="container mx-auto ">
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 pt-16 pb-12 bg-white lg:px-12 xl:px-32  gap-8 shadow-3xl">
+        <div className="col-span-1 xl:col-span-2  flex justify-center items-center ">
+          <img src={features} alt="" />
+        </div>
         <div className="col-span-1 xl:col-span-2 pl-5 sm:pl-16  ">
           <h1 className="text-main font-bold text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
             {title}
@@ -34,12 +37,9 @@ const FeaturesLeftTitle = ({ title, subTitle, price, buttonText, route }) => {
             </button>
           </div>
         </div>
-        <div className="col-span-1 xl:col-span-2  flex justify-center items-center ">
-          <img src={features} alt="" />
-        </div>
       </div>
     </div>
   );
 };
 
-export default FeaturesLeftTitle;
+export default FeaturesRightTitle;
