@@ -59,20 +59,21 @@ const Footer = () => {
               path3="contact"
             />
           </div>
-          <div className="col-span-4 border">
+          <div className="col-span-4">
             <FooterTitle title="SING UP FOR OUR NEWSLETTER" />
-            <div className="div">
-              <div className="flex  items-center bg-[#151515] max-w-[350px] border justify-between rounded-full py-2.5 px-6 ">
-                <input
-                  className="bg-[#151515] px-5 py-1 focus:border-[#151515] "
-                  type="email"
-                  name="email"
-                  id="email"
-                />
-                <button>
-                  <PaperAirplaneIcon className="w-5 text-white hover:text-four " />{" "}
-                </button>
-              </div>
+            <div className="flex items-center ">
+              <input
+                className="bg-[#151515] px-5 py-3 rounded-bl-full focus:outline-none  rounded-tl-full focus:border-[#151515] "
+                type="email"
+                name="email"
+                id="email"
+              />
+              <button>
+                <PaperAirplaneIcon className=" w-12 md:w-16 bg-[#151515] py-4 pr-4 pl-4 md:pr-6 md:pl-6 rounded-br-full  rounded-tr-full   text-white hover:text-four " />
+              </button>
+            </div>
+            <div className="mt-4">
+              <FooterTitle title="FIND US ON SOCIAL MEDIA" />
             </div>
           </div>
         </div>

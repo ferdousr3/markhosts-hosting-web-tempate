@@ -6,6 +6,8 @@ import { BsXLg } from "react-icons/bs";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 import { signOut } from "firebase/auth";
+import logo from "../../images/logo/markhost.svg";
+
 const Header = () => {
   const [user] = useAuthState(auth);
   const [open, setOpen] = useState(false);
@@ -19,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full backdrop-opacity-60  z-10 fixed py-5 shadow bg-[#ffffff] mx-auto ">
+    <div className="w-full backdrop-opacity-60  z-10 fixed py-5 shadow-sm bg-[#ffffff] mx-auto ">
       <div className="container  mx-auto ">
         <nav className="mx-auto   md:flex  items-center lg:flex lg:justify-between ">
           <div className="flex justify-between  items-center lg:flex-none">
@@ -32,9 +34,12 @@ const Header = () => {
             </div>
             <div className="logo">
               <NavLink onClick={handleClose} to="/">
-                <h1 className="text-2xl lg:text-3xl font-extrabold  text-main ">
-                  MarkHosts
-                </h1>
+                <div className="flex items-center ">
+                  <img src={logo} alt="MarkHost" width="30" />
+                  <h1 className="text-2xl lg:text-3xl font-extrabold  text-main ">
+                    MarkHosts
+                  </h1>
+                </div>
               </NavLink>
             </div>
           </div>

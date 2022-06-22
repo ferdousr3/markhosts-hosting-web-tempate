@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const FooterLink = ({linkTitle,path,linkTitle1,path1, linkTitle2,path2 ,linkTitle3,path3, linkTitle4,path4,linkTitle5,path5}) => {
-  const navigate = useNavigate();
   return (
     <div>
       <ul>
