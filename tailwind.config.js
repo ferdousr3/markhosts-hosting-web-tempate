@@ -17,6 +17,10 @@ module.exports = {
         third: "#666a8f",
         four: "#61ce70",
         five: "#888",
+        six: "#ebeced",
+        seven: "#3cdc97",
+        eight: "rgba(102,106,143,.22)",
+        nine: "#4054b2",
         yellow: "#ffc82c",
       },
       boxShadow: {

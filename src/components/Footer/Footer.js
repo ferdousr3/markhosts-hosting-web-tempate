@@ -2,8 +2,13 @@ import React from "react";
 import FooterTitle from "../Title/FooterTitle";
 import FooterLink from "./FooterLink";
 import { PaperAirplaneIcon } from "@heroicons/react/outline";
+import  data  from "../../data/data";
 
 const Footer = () => {
+ 
+  const date = new  Date()
+  const year = date.getFullYear()
+
   return (
     <footer className="bg-black pt-20 pb-6">
       <div className="container mx-auto">
@@ -72,10 +77,26 @@ const Footer = () => {
                 <PaperAirplaneIcon className=" w-12 md:w-16 bg-[#151515] py-4 pr-4 pl-4 md:pr-6 md:pl-6 rounded-br-full  rounded-tr-full   text-white hover:text-four " />
               </button>
             </div>
-            <div className="mt-4">
+            <div className="mt-6 ">
               <FooterTitle title="FIND US ON SOCIAL MEDIA" />
+              <div className="flex space-x-4 -mt-4 ">
+                {data.social.map((item) => (
+                  <a
+                    key={item.id}
+                    href={item.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=" text-xl hover:text-four transition-colors duration-300  "
+                  >
+                    {item.icon}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
+        </div>
+        <div className="pt-14 pb-6">
+          <h6 className="text-five text-sm" >© {year} MarkHost All Rights Reserved.</h6>
         </div>
       </div>
     </footer>
