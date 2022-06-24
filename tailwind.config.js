@@ -21,6 +21,7 @@ module.exports = {
         seven: "#3cdc97",
         eight: "rgba(102,106,143,.22)",
         nine: "#4054b2",
+        ten:'#e2e2e2',
         yellow: "#ffc82c",
       },
       boxShadow: {

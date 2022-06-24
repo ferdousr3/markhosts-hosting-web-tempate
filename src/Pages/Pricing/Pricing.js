@@ -4,7 +4,7 @@ import PageTitle from '../../components/PageTitle/PageTitle';
 const Pricing = () => {
   return (
     <>
-      <section className="pt-24 main-bg pb-60">
+      <section className="pt-24 main-bg pb-36">
         <PageTitle
           title="Product Pricing"
           description="Everything you may need for a successful online project."
