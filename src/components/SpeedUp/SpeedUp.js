@@ -5,10 +5,10 @@ const SpeedUp = () => {
   return (
     <>
       <div className="container mx-auto xl:px-24">
-        <div className="grid grid-cols-1 xl:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* left side */}
           <div className="">
-            <div className=" py-8 px-6 xl:px-8  border bg-[#e9f8ff ] text-main border-eight shadow-3xl max-w-sm">
+            <div className=" py-8 px-6 xl:px-8  border bg-white text-main border-eight shadow-3xl max-w-sm">
               <h1 className="text-lg font-semibold  pb-6">
                 Speed Performance score
               </h1>
@@ -70,7 +70,7 @@ const SpeedUp = () => {
           </div>
           {/* right side  */}
           <div className="flex items-center">
-            <div className="div">
+            <div className="mt-6 sm:mt-6 md:mt-6">
               <h1 className="text-main font-bold text-2xl md:text-4xl lg:text-4xl xl:text-5xl">
                 Get a website quickly and easily{" "}
               </h1>

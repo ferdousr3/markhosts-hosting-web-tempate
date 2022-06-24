@@ -1,11 +1,14 @@
 import React from "react";
 import FeaturesLeftTitle from "../../components/Features/FeaturesLeftTitle";
 import FeaturesRightTitle from "../../components/Features/FeaturesRightTitle";
+import HeaderPageTitle from "../../components/PageTitle/HeaderPageTitle";
 import PageTitle from "../../components/PageTitle/PageTitle";
 
 const Products = () => {
   return (
     <>
+      {/* SEO page Title */}
+      <HeaderPageTitle title="Products" />
       {/* main page title */}
       <section className="pt-24 main-bg pb-36">
         <PageTitle

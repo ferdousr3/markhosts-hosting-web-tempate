@@ -84,6 +84,38 @@ const data = {
       featureFour: "20X Processing Power & Memory",
     },
   ],
+  plans: [
+    {
+      id: "1",
+      name: "Single",
+      websites: "1",
+      accounts: "1",
+      domain: "None",
+      backups: "None",
+      price: "3.45",
+    },
+    {
+      id: "2",
+      name: "Premium",
+      websites: "2",
+      accounts: "6",
+      domain: "None",
+      backups: "None",
+      price: "4.45",
+    },
+    {
+      id: "3",
+      name: "Business",
+      websites: "5",
+      accounts: "10",
+      domain: "1 .com",
+      backups: "Weekly",
+      price: "6.45",
+    },
+  ],
 };
 
 export default data;
+
+
+

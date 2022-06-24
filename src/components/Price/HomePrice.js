@@ -17,7 +17,7 @@ const HomePrice = () => {
                 key={item.id}
                 className="bg-white shadow-3xl my-6 py-10 pl-6 xl:pl-12 pr-3 rounded-md"
               >
-                <h2 className="uppercase pr-8 text-xl text-main md:pr-32 font-semibold">
+                <h2 className="uppercase  text-xl text-main lg:pr-32 font-semibold">
                   {item.name}
                 </h2>
                 <h3 className="pt-8 text-second">As low as</h3>

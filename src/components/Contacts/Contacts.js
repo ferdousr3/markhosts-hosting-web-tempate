@@ -55,7 +55,7 @@ const Contacts = () => {
                   href={item.link}
                   target="_blank"
                   rel="noreferrer"
-                  className=" text-xl hover:text-four transition-colors duration-300  "
+                  className=" text-xl text-second hover:text-four transition-colors duration-300  "
                 >
                   {item.icon}
                 </a>
