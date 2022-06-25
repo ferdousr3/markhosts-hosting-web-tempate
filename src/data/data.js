@@ -84,38 +84,99 @@ const data = {
       featureFour: "20X Processing Power & Memory",
     },
   ],
-  plans: [
+  packagesFeatures: [
     {
-      id: "1",
-      name: "Single",
-      websites: "1",
-      accounts: "1",
-      domain: "None",
-      backups: "None",
-      price: "3.45",
+      id: 1,
+      name: "Plans",
     },
     {
-      id: "2",
-      name: "Premium",
-      websites: "2",
-      accounts: "6",
-      domain: "None",
-      backups: "None",
-      price: "4.45",
+      id: 2,
+      name: "Websites",
     },
     {
-      id: "3",
-      name: "Business",
-      websites: "5",
-      accounts: "10",
-      domain: "1 .com",
-      backups: "Weekly",
-      price: "6.45",
+      id: 3,
+      name: "Accounts",
+    },
+    {
+      id: 4,
+      name: "Domain",
+    },
+    {
+      id: 5,
+      name: "Backups",
+    },
+    {
+      id: 6,
+      name: "Price",
     },
   ],
+
+  packages: {
+    monthly: [
+      {
+        id: "1",
+        name: "Single",
+        websites: "1",
+        accounts: "1",
+        domain: "None",
+        backups: "None",
+        price: "3.45",
+        duration: "mo",
+      },
+      {
+        id: "2",
+        name: "Premium",
+        websites: "2",
+        accounts: "6",
+        domain: "None",
+        backups: "None",
+        price: "4.45",
+        duration: "mo",
+      },
+      {
+        id: "3",
+        name: "Business",
+        websites: "5",
+        accounts: "10",
+        domain: "1 (.com)",
+        backups: "Weekly",
+        price: "6.45",
+        duration: "mo",
+      },
+    ],
+    annual: [
+      {
+        id: "1",
+        name: "Single",
+        websites: "1",
+        accounts: "1",
+        domain: "None",
+        backups: "None",
+        price: "42.04",
+        duration: "ye",
+      },
+      {
+        id: "2",
+        name: "Premium",
+        websites: "2",
+        accounts: "6",
+        domain: "None",
+        backups: "None",
+        price: "42.45",
+        duration: "ye",
+      },
+      {
+        id: "3",
+        name: "Business",
+        websites: "5",
+        accounts: "10",
+        domain: "1 (.com)",
+        backups: "Weekly",
+        price: "46.45",
+        duration: "ye",
+      },
+    ],
+  },
 };
 
 export default data;
-
-
-

@@ -23,11 +23,11 @@ const HeroSection = () => {
                 The best price at the marketplace ever!
               </p>
               <div className="btn">
-                <Button text="get started" route="contact" />
+                <Button text="get started" route="#domainFinder" />
               </div>
               <p className="flex items-center pt-6 text-md">
                 <CheckIcon className="w-5 h-6  mr-2 text-second font-bold  " />
-                <span className="text-third" >30-day money-back guarantee</span>
+                <span className="text-third">30-day money-back guarantee</span>
               </p>
             </div>
           </div>

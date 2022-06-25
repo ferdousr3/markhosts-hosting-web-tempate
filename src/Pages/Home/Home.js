@@ -34,7 +34,7 @@ const Home = () => {
         />
       </section>
       {/* find domain section */}
-      <section className="main-bg py-32">
+      <section id="domainFinder" className="main-bg py-32">
         <FindDomain />
       </section>
       {/* hosting features section */}
